@@ -8,7 +8,8 @@ class Time extends Model { }
 Time.init({
     id_time: {
         type: DataTypes.INTEGER,
-        autoIncrement: true
+        autoIncrement: true,
+        primaryKey: true
     },
     time: {
         type: DataTypes.STRING
