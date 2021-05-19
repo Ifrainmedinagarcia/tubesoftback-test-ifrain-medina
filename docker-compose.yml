@@ -18,7 +18,7 @@ services:
         ports:
              - '5432:5432'
     ui:
-        image: chronometer:1.2
+        image: ifraindmg/chronometer
         ports: 
             - "3000:80"
 volumes:
