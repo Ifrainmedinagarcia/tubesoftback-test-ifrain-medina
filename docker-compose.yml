@@ -18,7 +18,7 @@ services:
         ports:
              - '5432:5432'
     ui:
-        image: ifraindmg/chronometer
+        image: ifraindmg/tubesoft
         ports: 
             - "3000:80"
 volumes:
