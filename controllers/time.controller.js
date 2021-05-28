@@ -4,7 +4,6 @@ const Time = require('../database/models/Time')
 
 const saveTime = async (req, res) => {
     const { time } = req.body
-    console.log(time);
     try {
         await Time.create({
             time
